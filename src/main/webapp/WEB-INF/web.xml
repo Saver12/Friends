@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
+
+    <display-name>SocialNetwork</display-name>
+
+    <welcome-file-list>
+        <welcome-file>login</welcome-file>
+    </welcome-file-list>
+
+    <context-param>
+        <param-name>log4j-config</param-name>
+        <param-value>META-INF/log4j.xml</param-value>
+    </context-param>
+
+    <error-page>
+    <error-code>404</error-code>
+    <location>/AppErrorHandler</location>
+    </error-page>
+
+    <error-page>
+    <exception-type>java.lang.Throwable</exception-type>
+    <location>/AppErrorHandler</location>
+    </error-page>
+
+    <filter>
+        <filter-name>AuthenticationFilter</filter-name>
+        <filter-class>ru.yandex.saver12.servlets.filters.AuthenticationFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>AuthenticationFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/userdb</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>header.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/fragments/header.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>headTag.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/fragments/headTag.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>login.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/login.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>audios.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/audios.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>edit.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/edit.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>friends.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/friends.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>search.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/search.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>photos.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/photos.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>profile.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/profile.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>register.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/register.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>requests.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/requests.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <!--suppress ServletWithoutMappingInspection -->
+        <servlet-name>messages.jsp</servlet-name>
+        <jsp-file>/WEB-INF/jsp/messages.jsp</jsp-file>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+</web-app>

@@ -1,0 +1,17 @@
+<dataset>
+    <users name="Megan"
+           id="2"
+           surname="Smith"
+           email="bunny@mail.ru"
+           country="USA"
+           password="qwerty"
+           photoId="11"
+           job="none"
+           education="none"
+           relationship="none"
+           birthdate="1988-11-25"/>
+
+    <audios name="Music!"
+            id="1"
+            userId="2"/>
+</dataset>

@@ -1,0 +1,47 @@
+<dataset>
+    <users name="Bob"
+           id="1"
+           surname="Doe"
+           email="sm@mail.ru"
+           country="Russia"
+           password="qwerty"
+           photoId="88"
+           job="none"
+           education="none"
+           relationship="none"
+           birthdate="1988-05-25"/>
+
+    <users name="Megan"
+           id="2"
+           surname="Smith"
+           email="bunny@mail.ru"
+           country="USA"
+           password="qwerty"
+           photoId="11"
+           job="none"
+           education="none"
+           relationship="none"
+           birthdate="1988-11-25"/>
+
+    <users name="Jason"
+           id="3"
+           surname="Bourne"
+           email="Kiss@mail.ru"
+           country="Russia"
+           password="qwerty"
+           photoId="88"
+           job="none"
+           education="none"
+           relationship="none"
+           birthdate="1988-05-25"/>
+
+    <friends id="1"
+             firstFriend="1"
+             secondFriend="2"
+             request="1"/>
+
+    <friends id="2"
+             firstFriend="1"
+             secondFriend="3"
+             request="0"/>
+</dataset>

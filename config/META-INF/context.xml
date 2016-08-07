@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+            driverClassName="com.mysql.jdbc.Driver"
+            maxTotal="50"
+            maxIdle="40"
+            maxWaitMillis="5000"
+            name="jdbc/userdb"
+            username="root"
+            password="root"
+            type="javax.sql.DataSource"
+            url="jdbc:mysql://localhost:3306/userdb?characterEncoding=UTF-8"
+            validationQuery="SELECT 1">
+    </Resource>
+</Context>

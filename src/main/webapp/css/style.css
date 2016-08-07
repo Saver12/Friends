@@ -1,0 +1,516 @@
+/* Style Sheet */
+
+* {
+    margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+    height:100%;
+}
+
+html {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -10em;
+}
+
+.footer, .push {
+    height: 10em;
+}
+
+.textarea {
+    padding-left: 12px;
+    background-color: lavender;
+    height: 10em;
+}
+
+.white-space-pre {
+    white-space: pre-wrap;
+}
+
+.headermenu {
+	position: fixed;
+	font-size: 24px;
+	background-color: green;
+	height: 38px;
+	width: 100%;
+    z-index: 55;
+}
+
+.profile-picture {
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+	position: relative;
+	left: 40px;
+}
+
+.description {
+    position: relative;
+    top: 25px;
+    padding-left: 44px;
+}
+
+.description-audio {
+    position: relative;
+    top: 11px;
+}
+
+.underline {
+    z-index: 1;
+    position: relative;
+    top: 15px;
+    padding-right: 111px;
+    right: 282px;
+}
+
+.underline-audio {
+    z-index: 1;
+    position: relative;
+    top: 6px;
+    padding-right: 111px;
+    right: 282px;
+}
+
+.photo-picture {
+    float: left;
+    width: 300px;
+    margin-top: 30px;
+    position: inherit;
+    left: 40px;
+    z-index: 11;
+}
+
+.name {
+	float: left;
+    font-size: 400%;
+   	margin-left: 50px;
+   	margin-top: 50px;
+}
+
+.user-information {
+	list-style-type: square;
+	clear: left;
+	font-size: 200%;
+	position: relative;
+	top: 50px;
+}
+
+.members {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 200%;
+	width: 275px;
+	height: 50px;
+	border-radius: 10px;
+	float: left;
+    position: fixed;
+	border: solid;
+    margin-left: 1070px;
+    margin-top: 100px;
+}
+
+.message{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 180%;
+    width: 275px;
+    height: 35px;
+    border-radius: 10px;
+    float: left;
+    position: fixed;
+    margin-left: 250px;
+    margin-top: 120px;
+    border: solid;
+}
+
+.audio {
+    position: relative;
+    margin-top: 33px;
+}
+
+.photos{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 200%;
+	width: 275px;
+	height: 50px;
+	border-radius: 10px;
+	float: left;
+    position: fixed;
+    margin-left: 1070px;
+    margin-top: 160px;
+    border: solid;
+}
+
+.contact{
+	text-align: center;
+	vertical-align: middle; 
+	font-size: 200%;
+	width: 275px;
+	height: 50px;
+	border-radius: 10px;
+	float: left;
+	position: fixed;
+	top: 150px;
+	right: 5px;
+	border: solid;
+}
+
+.cube{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 200%;
+	width: 275px;
+	height: 50px;
+	border-radius: 10px;
+	float: left;
+	position: fixed;
+    margin-left: 1070px;
+    margin-top: 220px;
+	border: solid;
+}
+
+.messages{
+    position: fixed;
+    top: 2px;
+    right: 900px;
+}
+
+.search{
+     position: fixed;
+     top: 2px;
+     right: 160px;
+ }
+
+.friends{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 180%;
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    float: left;
+    position: fixed;
+    margin-left: 550px;
+    margin-top: 120px;
+    border: solid;
+}
+
+.declineRequest{
+    font-size: 180%;
+    width: 230px;
+    height: 35px;
+    position: fixed;
+    margin-top: 59px;
+}
+
+.page{
+    position: fixed;
+    top: 2px;
+    right: 1150px;
+}
+
+.exit{
+    position: fixed;
+    top: 1px;
+    right: 5px;
+}
+
+.profile {
+	float: right;
+	font-size: 24px;
+}
+
+.list {
+    font-size: 24px;
+    padding-left: 12px;
+    padding-right: 1050px;
+}
+
+.list2 {
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.list3 {
+    position: relative;
+    font-size: 24px;
+    margin-left: 455px;
+    bottom: 25px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.talkName {
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.searchName {
+    font-size: 22px;
+    padding-bottom: 11px;
+    font-weight: bold;
+}
+
+.searchForm {
+    padding-left: 12px;
+}
+
+.allPhotos {
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 33px;
+}
+
+.downlPhoto {
+    font-size: 24px;
+    position: relative;
+    margin-left: 35px;
+    bottom: 11px;
+}
+
+.request {
+    font-size: 24px;
+    padding-bottom: 20px;
+    position: fixed;
+    left: 450px;
+    top: 69px;
+    border: solid;
+    border-radius: 10px;
+    height: 18px;
+    width: 220px;
+    padding-left: 37px;
+}
+
+.headerButton {
+    height:38px;
+    font-size: 24px;
+    background-color: transparent;
+    color:#FF9900;
+    border: none;
+    outline:none;
+}
+
+.footerButton {
+    height:34px;
+    font-size: 19px;
+    background-color:lavender;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+
+.deleteDialogueButton {
+    height:34px;
+    font-size: 19px;
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    margin-left: 277px;
+    padding-bottom: 2px;
+    bottom: 33px;
+}
+
+.changeDescButton {
+    position: relative;
+    height:34px;
+    font-size: 19px;
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    bottom: 44px;
+}
+
+.friendButton {
+    background-color:white;
+    border: none;
+    outline:none;
+    font-size: 24px;
+    color: black;
+}
+
+.addRequestButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    left: 350px;
+    font-size: 24px;
+    color: black;
+}
+
+.deleteRequestButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    bottom: 36px;
+    left: 520px;
+    font-size: 24px;
+    color: black;
+}
+
+.declineButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    margin-top: 10px;
+    padding-right: 4px;
+    left: 550px;
+    font-size: 24px;
+    width: 236px;
+    height: 40px;
+    position: fixed;
+}
+
+.deletePhotoButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    top: 33px;
+    left: 50px;
+    font-size: 24px;
+    color: black;
+}
+
+.deleteAudioButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    margin-left: 350px;
+    bottom: 38px;
+    font-size: 24px;
+    color: black;
+}
+
+.changeAvatarButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    font-size: 24px;
+    color: black;
+}
+
+.downlPhotoButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    top: 11px;
+    font-size: 24px;
+    color: black;
+}
+
+.searchFormButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    margin-left: 188px;
+    bottom: 26px;
+    font-size: 21px;
+    color: black;
+}
+
+.localeButton {
+    background-color:white;
+    border: solid;
+    border-radius: 10px;
+    outline:none;
+    position: relative;
+    font-size: 24px;
+    color: black;
+}
+
+.localeForm {
+    background-color:white;
+    border: none;
+    border-radius: 10px;
+    outline:none;
+    position: fixed;
+    bottom: 575px;
+    margin-left: 1241px;
+    font-size: 24px;
+    color: black;
+}
+
+.textarea-photo {
+    position: relative;
+    padding-left: 350px;
+    margin-top: 77px;
+}
+
+.textarea-audio {
+    position: relative;
+}
+
+textarea { resize: none; }
+
+a {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+a.names {
+    color: black;
+}
+
+a.names2 {
+    color: black;
+    position: relative;
+    top: 31px;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    position: relative;
+    margin-left: 11px;
+    margin-top: 22px;
+}
+
+hr {
+    color: #555; /*для IE */
+    background-color:#555; /*для Firefox, Opera, Safari*/
+    border:0;
+    height:2px; /* высота 1px IE, Firefox, Opera, Safari */
+    clear:both; /* для очистки, если тег идет после float елемента */
+}

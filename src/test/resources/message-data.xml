@@ -1,0 +1,30 @@
+<dataset>
+    <users name="Bob"
+           id="1"
+           surname="Doe"
+           email="sm@mail.ru"
+           country="Russia"
+           password="qwerty"
+           photoId="88"
+           job="none"
+           education="none"
+           relationship="none"
+           birthdate="1988-05-25"/>
+
+    <users name="Megan"
+           id="2"
+           surname="Smith"
+           email="bunny@mail.ru"
+           country="USA"
+           password="qwerty"
+           photoId="11"
+           job="none"
+           education="none"
+           relationship="none"
+           birthdate="1988-11-25"/>
+
+    <messages message="Hello!!"
+              id="1"
+              firstUserId="1"
+              secondUserId="2"/>
+</dataset>

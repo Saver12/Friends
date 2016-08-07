@@ -1,0 +1,8 @@
+# Package Files #
+*.ear
+
+# IDEA & Eclipse
+.idea/
+*.iml
+out/
+target/
